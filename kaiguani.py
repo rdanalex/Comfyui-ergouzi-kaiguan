@@ -12,7 +12,7 @@ class GroupSwitchNodi:
     RETURN_TYPES = ()
     FUNCTION = "process"
 
-    CATEGORY = "2🐕kaiguan"
+    CATEGORY = "2🐕 Switch"
 NODE_CLASS_MAPPINGS = {
     "GroupSwitchNodi": GroupSwitchNodi
 }

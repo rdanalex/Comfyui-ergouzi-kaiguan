@@ -45,7 +45,7 @@ class EGSEED:
     RETURN_TYPES = ("INT",)
     RETURN_NAMES = ("SEED",)
     FUNCTION = "main"
-    CATEGORY = "2🐕kaiguan"
+    CATEGORY = "2🐕 Switch"
 
     @classmethod
     def IS_CHANGED(cls, seed, prompt=None, extra_pnginfo=None, unique_id=None):

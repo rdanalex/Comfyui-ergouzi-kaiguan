@@ -35,7 +35,7 @@ class EGRYDZQHNode:
     RETURN_TYPES = (any_type,)
     RETURN_NAMES = ('output',)
     FUNCTION = "switch"
-    CATEGORY = "2🐕kaiguan"
+    CATEGORY = "2🐕 Switch"
 
     def switch(self, **inputs):
         for input_name, value in inputs.items():

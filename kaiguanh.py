@@ -7,7 +7,7 @@ class EGRWGL:
     def INPUT_TYPES(cls):
         return {
             "hidden": {
-                "运行次数": ("INT", {
+                "run_count": ("INT", {
                     "default": 1,
                     "min": 1,
                     "max": 1000
@@ -16,16 +16,16 @@ class EGRWGL:
         }
 
     RETURN_TYPES = ()
-    RETURN_NAMES = ("剩余运行次数",)
+    RETURN_NAMES = ("remaining_run_count",)
     FUNCTION = "manage_tasks"
-    CATEGORY = "2🐕kaiguan"
+    CATEGORY = "2🐕 Switch"
     
-    def manage_tasks(self, 运行次数):
-        return (运行次数,)
+    def manage_tasks(self, run_count):
+        return (run_count,)
 NODE_CLASS_MAPPINGS = {
     "EGRWGL": EGRWGL
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "EGRWGL": "2🐕任务管理器"
+    "EGRWGL": "2🐕 Task Manager"
 }

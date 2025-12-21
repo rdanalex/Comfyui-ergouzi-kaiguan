@@ -16,7 +16,7 @@ class GroupSwitchNode:
     RETURN_TYPES = ("*",)
     FUNCTION = "process"
 
-    CATEGORY = "2🐕kaiguan"
+    CATEGORY = "2🐕 Switch"
 
     def process(self, smooth_edge_switch):
         return (smooth_edge_switch,)

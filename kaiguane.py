@@ -46,7 +46,7 @@ class hulue:
     RETURN_TYPES = ()
     FUNCTION = "execute"
 
-    CATEGORY = "2🐕kaiguan"
+    CATEGORY = "2🐕 Switch"
 
     def execute(self, any_type):
         if any_type:
@@ -59,5 +59,5 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "hulue": "hulue🔃"
+    "hulue": "Ignore🔃"
 }

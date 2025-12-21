@@ -46,7 +46,7 @@ class ALLty:
     RETURN_TYPES = ()
     FUNCTION = "execute"
 
-    CATEGORY = "2🐕kaiguan"
+    CATEGORY = "2🐕 Switch"
 
     def execute(self, any_type):
         if any_type:
